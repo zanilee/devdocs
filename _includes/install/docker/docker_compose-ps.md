@@ -13,14 +13,14 @@ magento2devbox_web_709831d587f2feef1e27fa41d4e70219       /usr/local/bin/entrypo
 
 In the preceding example:
 
-*	The database listens on port 32780
+*	The database listens on port 32705
 *	Elasticsearch listens on ports 32777 and 9300
 *	RabbitMQ listens on ports 15671, 32778, 25672, 4369, 5671, and 32779
 *	Redis listens on port 6379
 *	In the web container, the following ports are used:
 
 	*	SSH listens on port 32795
-
+	
 		Applications like PhpStorm communicate with DevBox on the SSH listen port. It's very important to know this port.
 	*	Unison synchronization (Windows only) listens on port 32781
 	*	The web server listens on port 32782
